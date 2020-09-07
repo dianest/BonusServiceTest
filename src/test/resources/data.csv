@@ -1,0 +1,8 @@
+registered and under limit,100060,true,30,
+not registered and under limit,100060,false,10,
+registered and over limit,2000060,true,500,
+not registered and over limit,6000060,false,500,
+registered and rounding, 169999, true, 50,
+not registered and rounding, 169999, false, 16,
+registered and minus amount, -169999, true, 0,
+registered and over flow, Long.MAX_VALUE / 3 + 1, true, 500
